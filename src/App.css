@@ -1,0 +1,32 @@
+.pageLayout{
+    display: grid;
+    height:100vh;
+    width: 100vh;
+    grid-template-areas: "cart birds bird"
+    " checkout birds birds  ";
+
+
+}
+.cart ,.checkout {
+    border: lightgrey 1px solid;
+
+
+}
+
+.birds, .cart, .checkout {
+    height: 100%;
+    width: 100%;
+
+}
+.cart{
+    grid-area: cart;
+}
+
+.birds{
+    grid-area: birds;
+    padding: 20px;
+}
+
+.checkout{
+    grid-area: checkout;
+}
